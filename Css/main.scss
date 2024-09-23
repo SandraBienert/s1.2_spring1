@@ -1,0 +1,25 @@
+
+$primary: #5265E1;
+$secondary: #FA5959;
+$danger: #cccccc;
+$black: #000;
+
+$theme-colors: (
+    "primary": $primary,
+    "danger": $danger,
+    "secondary": $secondary,
+    "black": $black
+);
+
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+/*Color principal: #5265E1 
+Color secundari: #FA5959.*/
+
+a.nav-link{
+
+    color: black;
+    font-weight:bold;
+
+}
