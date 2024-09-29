@@ -1,8 +1,11 @@
-
+/*Color principal: #5265E1 
+Color secundari: #FA5959.*/
 $primary: #5265E1;
 $secondary: #FA5959;
 $danger: #cccccc;
 $black: #000;
+
+
 
 $theme-colors: (
     "primary": $primary,
@@ -11,15 +14,171 @@ $theme-colors: (
     "black": $black
 );
 
-
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
-/*Color principal: #5265E1 
-Color secundari: #FA5959.*/
 
-a.nav-link{
-
+.nav-link {
     color: black;
-    font-weight:bold;
+}
+
+.col-lg-1.col-sm-6.justify-content-right,
+ img#simboloHamburguesa.img-fluid{
+
+    visibility: hidden;
 
 }
+
+.nav-underline .nav-link.active,
+.nav-underline .show>.nav-link {
+    font-weight: 700;
+    color: var(--bs-nav-underline-link-active-color);
+    border-bottom-color: red;
+}
+
+
+
+/*div#background.col-lg-6{ //COLOR AZUL BAJO foto
+    background-color: $primary;
+    block-size: 200px;
+    border-radius: 25%;
+   padding-top: 40px;
+   
+    
+}*/
+
+//----MEDIAQUERYS----//
+
+@media screen and (min-width: 580px) and (max-width: 950px){
+    
+    
+div.col-lg-1.col-sm-6.justify-content-right{
+
+        visibility: visible;
+        text-align: right;
+    }
+
+img#simboloHamburguesa.img-fluid {
+        visibility: visible;
+        width: 27px;
+        height: 25px;
+           
+    
+    }
+
+div#containerNav.col-lg-6.col-sm-1 {
+
+        display: none;
+         
+    }
+
+div#containerNav.col-lg-6.col-sm-1 {
+    text-align: flex-end;
+}
+
+div#row1.row {
+
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+
+}
+
+div.button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}   
+
+}
+
+
+@media screen and (min-width: 317px) and (max-width: 579px) {
+
+    
+.container.pt-5{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+
+    div.col-lg-5.col-sm-5{
+        width: 150px;
+    }
+    
+    
+    div.col-lg-1.col-sm-6.justify-content-right {
+        width: 150px;
+        visibility: visible;
+        text-align: right;
+    }
+
+    img#simboloHamburguesa.img-fluid {
+        visibility: visible;
+        width: 27px;
+        height: 25px;
+
+
+    }
+
+    div#containerNav.col-lg-6.col-sm-1 {
+
+        display: none;
+
+    }
+
+    div#row1.row    {
+        display: flex;
+        flex-direction: column-reverse;
+        
+        }
+
+    div.button-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+
+div.col-lg-5.col-sm-5 {
+
+    display: flex;
+    flex-direction: column-reverse;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+    }
+
+.col-lg-1.col-sm-6.justify-content-right{
+    
+    margin-left: 100px;
+    padding-left: 50px;
+}
+
+
+div.col-lg-6.col-sm-6{
+
+    text-align: center;
+}
+
+h2.text-md-center.fw-bold.mt-3.pt-3.pb-3{
+    text-align: center;
+}
+
+ hr#linea{
+    display:flex;
+    flex-direction: row;
+    width: 90%;
+
+ }
+
+li.nav-item.m-3{
+
+    border-bottom: 1px black solid;
+}
+
+
+}
+
+
