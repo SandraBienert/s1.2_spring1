@@ -8,10 +8,10 @@ $black: #000;
 
 
 $theme-colors: (
-    "primary": $primary,
-    "danger": $danger,
-    "secondary": $secondary,
-    "black": $black
+    "azul": $primary,
+    "blanco": $danger,
+    "rojo": $secondary,
+    "megro": $black
 );
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
@@ -35,7 +35,36 @@ $theme-colors: (
     border-bottom-color: red;
 }
 
+div#containerYs.col-lg-6.col-sm-6{
 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 50px;
+}
+
+div.button-container{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+button.btn.btn-azul{
+    display: flex;
+    align-self: flex-start;
+    margin: 2px;
+    border: 1px solid white;
+}
+
+div#card2.card{
+    margin-top: 30px;
+}
+
+div#card3.card{
+    margin-top: 60px;
+
+}
 
 /*div#background.col-lg-6{ //COLOR AZUL BAJO foto
     background-color: $primary;
@@ -47,49 +76,6 @@ $theme-colors: (
 }*/
 
 //----MEDIAQUERYS----//
-
-@media screen and (min-width: 580px) and (max-width: 950px){
-    
-    
-div.col-lg-1.col-sm-6.justify-content-right{
-
-        visibility: visible;
-        text-align: right;
-    }
-
-img#simboloHamburguesa.img-fluid {
-        visibility: visible;
-        width: 27px;
-        height: 25px;
-           
-    
-    }
-
-div#containerNav.col-lg-6.col-sm-1 {
-
-        display: none;
-         
-    }
-
-div#containerNav.col-lg-6.col-sm-1 {
-    text-align: flex-end;
-}
-
-div#row1.row {
-
-    display: flex;
-    flex-direction: column-reverse;
-    width: 100%;
-
-}
-
-div.button-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}   
-
-}
 
 
 @media screen and (min-width: 317px) and (max-width: 579px) {
@@ -178,7 +164,55 @@ li.nav-item.m-3{
     border-bottom: 1px black solid;
 }
 
+div#downloadText.row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
 
+div.col-lg-4.col-sm-12{
+
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+div#containerYs.col-lg-6.col-sm-6{
+    display: flex;
+    justify-content: center;
+}
+
+button#botonOff.btn.btn-azul{
+    display: none;
+}
+
+div#downloadTextContainer.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 
+
+h3.text-start.fw-bold.pt5.pb-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+
+div.col-md-10.col-sm-12{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div#buttonFaqsContainer.col-md-4.col-sm-4.mt-2{
+    display: flex;
+    justify-content: center;
+}
+
+}
