@@ -1,101 +1,156 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>S1.2_Spring 1</title>
-    <link rel="stylesheet" href="./css/main.css"/>
+    <link rel="stylesheet" href="./css/main.css" />
     <link rel="stylesheet" href="./css/main.scss">
 </head>
+
 <body>
 
-<header class="container pt-5">
-    <div class="row" id="row0">
-        <div class="col-lg-5 col-sm-5">
-            <div class ="container">
-                <a class="navbar-brand" href="#">
-                    <img src="./img/logos/logo-bookmark.svg" alt="logo con palabra bookmark">
-                </a>
-            </div> <!-----LOGO-->
-        </div>
-        <div class="col-lg-1 col-sm-6 justify-content-right">
-            <img class="img-fluid" src="./img/iconos/icon-hamburger.svg" id="simboloHamburguesa" alt="icono menu">
-        </div><!----MENU HANBURGUESA-->
-        <div class="col-lg-6 col-sm-1" id="containerNav">
-            <ul class="nav justify-content-center d-flex flex-wrap">
-                <li class="nav-item m-1">
-                    <a class="nav-link" href="#">FEATURES</a>
-                </li>
-                <li class="nav-item m-1">
-                    <a class="nav-link" href="#">PRICING</a>
-                </li>
-                <li class="nav-item m-1">
-                    <a class="nav-link" href="#">CONTACT</a>
-                </li>
-                <li class="nav-item m-1">
-                    <button type="button" class="btn btn-secondary" style="color: white">LOGIN</button>
-                </li>
-            </ul>
-        </div>
-     </div>
-    </div>    
-</header>
-<div class="container pt-5" id="columaXs">
-    <div class="row" id="row1">
-        <div class="col-lg-6 col-sm-6">
-            <h1 class="fs-1 fw-bold">A Simple Bookmark Manager</h1>
-            <p class="lh-base fs-5 pt-3 pb-3">A clean and simple interface to organize your favorite websites. Open a new browser tab and see your sites load instantly. Ty it for free</p>
-            <div class="button-container">
-                <button type="button" class="btn btn-primary btn-lg">Get it on Chrome</button>
-                <button type="button" class="btn btn-danger btn-lg text-reset">Get it on Firefox</button>
+    <header class="container pt-5">
+        <div class="row" id="row0">
+            <div class="col-lg-5 col-sm-5">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <img src="./img/logos/logo-bookmark.svg" alt="logo con palabra bookmark">
+                    </a>
+                </div> <!-----LOGO-->
+            </div>
+            <div class="col-lg-1 col-sm-6 justify-content-right">
+                <img class="img-fluid" src="./img/iconos/icon-hamburger.svg" id="simboloHamburguesa" alt="icono menu">
+            </div><!----MENU HANBURGUESA-->
+            <div class="col-lg-6 col-sm-1" id="containerNav">
+                <ul class="nav justify-content-center d-flex flex-wrap">
+                    <li class="nav-item m-1">
+                        <a class="nav-link" href="#">FEATURES</a>
+                    </li>
+                    <li class="nav-item m-1">
+                        <a class="nav-link" href="#">PRICING</a>
+                    </li>
+                    <li class="nav-item m-1">
+                        <a class="nav-link" href="#">CONTACT</a>
+                    </li>
+                    <li class="nav-item m-1">
+                        <button type="button" class="btn btn-rojo" style="color: white">LOGIN</button>
+                    </li>
+                </ul>
             </div>
         </div>
-        <div class="col-lg-6 col-sm-6" id="background">
-            <img class="img-fluid justify-content-right" src="./img/Imagenes/illustration-hero.svg" alt="DESCRIPCION FOTO"/>
+        </div>
+    </header>
+    <div class="container pt-5" id="columaXs">
+        <div class="row" id="row1">
+            <div class="col-lg-6 col-sm-6">
+                <h1 class="fs-1 fw-bold">A Simple Bookmark Manager</h1>
+                <p class="lh-base fs-5 pt-3 pb-3">A clean and simple interface to organize your favorite websites. Open
+                    a new browser tab and see your sites load instantly. Ty it for free</p>
+                <div class="button-container">
+                    <button type="button" class="btn btn-azul btn-md">Get it on Chrome</button>
+                    <button type="button" class="btn btn-blanco btn-md text-reset">Get it on Firefox</button>
+                </div>
+            </div>
+            <div class="col-lg-6 col-sm-6" id="background">
+                <img class="img-fluid justify-content-right" src="./img/Imagenes/illustration-hero.svg"
+                    alt="DESCRIPCION FOTO" />
+            </div>
         </div>
     </div>
-</div>
 
-<!--MAIN-->
+    <!--MAIN-->
 
-<div class="container mb-5 pb-5">
-    <div class="row">
-        <div class="col-xl">
-            <h2 class="text-md-center fw-bold mt-3 pt-3 pb-3">Features</h2>
-            <p class="lh-base fs-5 text-center fw-light pt-3 pb-4">Our aim is to make it quick and easy for you to access your <br> favorite websites. Your bookmarks sync between your devices <br> so you can access them on the go.</p>
+    <div class="container mb-5 pb-5">
+        <div class="row">
+            <div class="col-xl">
+                <h2 class="text-md-center fw-bold mt-3 pt-3 pb-3">Features</h2>
+                <p class="lh-base fs-5 text-center fw-light pt-3 pb-4">Our aim is to make it quick and easy for you to
+                    access your <br> favorite websites. Your bookmarks sync between your devices <br> so you can access
+                    them on the go.</p>
+            </div>
         </div>
-    </div>
-    <div class="row">
-        <div class="col-1"></div>
-        <div class="col-10">
-        <ul class="nav nav-underline justify-content-center">
-            <hr id="linea">
-        <li class="nav-item m-3">
-                <a class="nav-link active fs-4 fw-bold text-center" aria-current="page" href="">Simple Bookmaking</a>
-        </li>
-            <li class="nav-item m-3">
-                <a class="nav-link fs-4 fw-normal text-center"  aria-disabled="true" href="">Speady searching</a>
-            </li>
-             <li class="nav-item m-3">
-                <a class="nav-link fs-4 fw-normal text-center"  aria-disabled="true" href="">Easy Shaning</a>
-            </li>
-        </ul>
-        <hr id="linea">
-        </div>
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-10">
+                <ul class="nav nav-underline justify-content-center">
+                    <hr id="linea">
+                    <li class="nav-item m-3">
+                        <a class="nav-link active fs-4 fw-bold text-center" aria-current="page" href="">Simple
+                            Bookmaking</a>
+                    </li>
+                    <li class="nav-item m-3">
+                        <a class="nav-link fs-4 fw-normal text-center" aria-disabled="true" href="">Speady searching</a>
+                    </li>
+                    <li class="nav-item m-3">
+                        <a class="nav-link fs-4 fw-normal text-center" aria-disabled="true" href="">Easy Shaning</a>
+                    </li>
+                </ul>
+                <hr id="linea">
+            </div>
 
-        <div class="col-1"></div>
-    </div>
-    <div class="row mt-3 pt-5">
-        <div class="col-lg-6 col-sm-6">
-            <img src="./img/imagenes/illustration-features-tab-1.svg" class="img-fluid" alt="descripcion foto1">
+            <div class="col-1"></div>
         </div>
-        <div class="col-lg-6 col-sm-6" id="containerYs">
-            <h3 class="text-center fw-bold pt-5 pb-3">Bookmark in one click</h3>
-            <p class="text-center fs-5 fw-light pb-3">Organize your bookmarks however you like. Our simple drag and drop interface gives your complete control over how you manage your favorite sites.</p>
-            <button type="button" class="btn btn-primary ">More Info</button>
+        <div class="row mt-3 pt-5">
+            <div class="col-lg-6 col-sm-6">
+                <img src="./img/imagenes/illustration-features-tab-1.svg" class="img-fluid" alt="descripcion foto1">
+            </div>
+            <div class="col-lg-6 col-sm-6" id="containerYs">
+                <h3 class="text-start fw-bold pt-5 pb-3">Bookmark in one click</h3>
+                <p class="text-start fs-5 fw-light pb-3">Organize your bookmarks however you like. Our simple drag and
+                    drop interface gives your complete control over how you manage your favorite sites.</p>
+                <button type="button" class="btn btn-azul" id="botonOff">More Info</button>
+            </div>
         </div>
     </div>
-</div>
+    <!----------------------------------CARDS-------------------->
+    
+    <div class="container" id="downloadTextContainer">
+        <div class="row" id="downloadText">
+            <div class="col-lg-3 col-sm-1"></div>
+            <div class="col-lg-5 col-sm-6 text-center fw-bold pb-4">
+                <h3 class="text-center fw-bold pt-5 pb-3" id="titulo">Download the extension</h3>
+                <p class="text-center fs-5 fw-light lh-md pt-2" id="textoExtensiones">We've got more browsers in the pipeline. Please do let us now if you've got a favourite you'd like us to prioritize.</p>
+            </div>
+            <div class="col-lg-3 col-sm-1"></div>
+        </div>
+        <div class="row" id="cardsContainer"><!--1-->
+            <div class="col-lg-4 col-sm-12">
+                <div class="card" id="card1" style="width: 16rem;">
+                    <img class="card-img-top img-fluid" src="./img/logos/logo-chrome.svg" alt="logo Chrome">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Add to Chrome</h5>
+                        <p class="card-text text-center">Minimum version 62</p>
+                        <img class="img-fluid mb-3" src="./img/iconos/bg-dots.svg"  id="puntos1" alt="puntos suspensivos">
+                        <a href="#" class="btn btn-azul mx-2">Add & Install Extension</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-12">
+                <div class="card" id= "card2" style="width: 16rem;"><!--2-->
+                    <img class="card-img-top img-fluid" src="./img/logos/logo-firefox.svg" alt="logo Firefox">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Add to Firefox</h5>
+                        <p class="card-text text-center">Minimum version 55</p>
+                        <img class= "img-fluid mb-3" src="./img/iconos/bg-dots.svg" id="puntos2"alt="puntos suspensivos">
+                        <a href="#" class="btn btn-azul mx-2">Add & Install Extension</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-12">
+                <div class="card" id="card3"style="width: 16rem;"><!--3-->
+                    <img class="card-img-top img-fluid" src="./img/logos/logo-opera.svg" alt="logo-opera">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Add to Opera</h5>
+                        <p class="card-text text-center">Minimum version 46</p>
+                        <img class= "img-fluid mb-3" src="./img/iconos/bg-dots.svg"  id="puntos3" alt="puntos suspensivos">
+                        <a href="#" class="btn btn-azul mx-2">Add & Install Extension</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
